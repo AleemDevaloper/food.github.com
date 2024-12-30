@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <!-- Discription and contacts -->
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+  
+    <!-- fontawsome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fav icons -->
+    <link href="" rel="icon">
+    <link href="" rel="apple-touch-icon">
+    <!--bootstarap-->
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+    
+    <!-- swiper css -->
+  <link rel="stylesheet" href="Assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+
+    <!-- Main CSS File -->
+    <link href="Assets/sass/main.css" rel="stylesheet" />
+  
+
+</head>
+<body>
+   <div id="wrapper">
+     <!-- ====== header ======== -->
+      <section class="header">
+         
+      <header>
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container">
+            <a class="navbar-brand fs-4" href="#"><img src="Assets/image/Header/logo.png" alt="logo"></a>
+            <div class="cart-btn ">
+              <button type="button" class="cart-btn bg-lg t-center align-item-center justify-content-center butd-flex "><img src="Assets/image/Header/cart2.png" alt="img"></button>
+            </div>
+                   
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <div id="navicon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </button>
+          
+            <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header sub-main-color">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="Assets/image/Header/logo.png" alt=""></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 ">
+                  <li class="nav-item mx-lg-2">
+                    <a class="nav-link px-3 btn" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item mx-lg-2">
+                    <a class="nav-link px-3 btn" href="#">Assortiment</a>
+                  </li>
+                  <li class="nav-item mx-lg-2">
+                    <a class="nav-link px-3 btn" href="#">Skills</a>
+                  </li>
+                  <li class="nav-item mx-lg-2">
+                    <a class="nav-link px-3 btn" href="#">Lijsten</a>
+                  </li>
+                  <li class="nav-item mx-lg-2">
+                    <a class="nav-link px-3 btn" href="#">Account</a>
+                  </li>
+                </ul>
+                <div class="row right justify-content-center align-item-center">
+                    <div class="col-8">
+                        <button class="btn btn-calander px-3  d-flex justify-content-center align-item-center"type="button">
+                            <img src="Assets/image/Header/calender.png" alt="img" class="m-1">
+                            <div class="d-flex justify-content-center align-item-center my-1">Vandaag</div></button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn my-1 btn-cart d-flex justify-content-center align-item-center"><img src="Assets/image/Header/cart.png" alt="img"></button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+
+
+        
+      </header>
+      </section>
+     
+  <section class="main my-2">
+    <div class="container py-5">
+        <div class="row py-3">
+            <h2 class="d-flex justify-content-start">Welkom op het bestelportaal,<div class="text-g">David</div></h2> <br>
+            <p>Hoe wens je een bestelling te plaatsen?</p>
+            <img src="Assets/image/Home/line.png" alt="" srcset="" class="py-2">
+        </div>
+        <div class="row mx-2">
+            <div class="col-lg-3 my-2 my-md-1 bg-g rounded mx-2 ">
+                <div class="row justify-content-center align-item-center px-3 py-lg-2 py-xl-3 py-2">
+                    <div class="col-xl-2 col-md-1 col-lg-3 col-sm-2 col-2 d-flex justify-content-center align-item-center m-auto py-3 rounded bg-w "><img src="Assets/image/Home/cart.png" alt=""></div>
+                    <div class="col">
+                        <h5>Bestelling herhalen</h5>
+                        <p>Herhaal een bestelling</p></div>
+                </div>
+            </div>
+            <div class="col-lg-3 my-2 my-md-1 bg-w rounded mx-2 ">
+                <div class="row justify-content-center align-item-center px-3 py-lg-2 py-xl-3 py-2">
+                    <div class="col-xl-2 col-md-1 col-lg-3 col-sm-2 col-2 d-flex justify-content-center align-item-center m-auto py-3 rounded bg-lg"><img src="Assets/image/Home/app.png" alt=""></div>
+                    <div class="col">
+                        <h5>Ons assortiment</h5>
+                        <p>Ontdek ons assortiment</p></div>
+                </div>
+            </div>
+            <div class="col-lg-3 my-2 my-md-1 bg-w rounded mx-2 ">
+                <div class="row justify-content-center align-item-center px-2 py-3">
+                    <div class="col-xl-2 col-md-1 col-lg-3 col-sm-2 col-2 d-flex justify-content-center align-item-center m-auto py-3 rounded bg-lg"><img src="Assets/image/Home/edit.png" alt=""></div>
+                    <div class="col">
+                        <h5>Productlijsten</h5>
+                        <p>Bekijk je productlijsten</p></div>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+   
+  </section>
+
+
+  <!-- Slider section is start from here  -->
+<section class="slider my-5 py-3">
+    <div class="container">
+        <h2>Product in de kijker</h2>
+        <p>Vlaemynck promo’s</p>
+        <img src="Assets/image/Home/line.png" alt="ling">
+
+       
+        <section class="c-area my-5">
+          <div class="container">
+            <div class="row">
+             
+              <div class="col-12">
+                <div class="slider-area">
+                  <div class="c-slider">
+                    <div>
+                      <div class="img-hold">
+                        <div class="card px-3 justify-content-center align-item-center rounded">
+                          <img src="Assets/image/Home/strawbrey.png" alt="" class="my-2">
+                          <h4 class="my-2">Product in de kijker</h4>
+                          <p class="my-2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu</p>
+                          <button type="button" class="btn my-3 btn-c text-g bg-w px-xl-4 px-lg-3 px-2 mx-lg-2">In winkelmandje</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="img-hold">
+                        <div class="card px-3 justify-content-center align-item-center rounded">
+                          <img src="Assets/image/Home/strawbrey.png" alt="" class="my-2">
+                          <h4 class="my-2">Product in de kijker</h4>
+                          <p class="my-2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu</p>
+                          <button type="button" class="btn my-3 btn-c text-g bg-w px-xl-4 px-lg-3 px-2 mx-lg-2">In winkelmandje</button>
+                        </div>
+                      </div>
+                    </div>
+                  
+                 
+                   
+                    <div>
+                      <div class="img-hold">
+                        <div class="card px-3 justify-content-center align-item-center rounded">
+                          <img src="Assets/image/Home/strawbrey.png" alt="" class="my-2">
+                          <h4 class="my-2">Product in de kijker</h4>
+                          <p class="my-2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu</p>
+                          <button type="button" class="btn my-3 btn-c text-g bg-w px-xl-4 px-lg-3 px-2 mx-lg-2">In winkelmandje</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="img-hold">
+                        <div class="card px-3 justify-content-center align-item-center rounded">
+                          <img src="Assets/image/Home/strawbrey.png" alt="" class="my-2">
+                          <h4 class="my-2">Product in de kijker</h4>
+                          <p class="my-2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu</p>
+                          <button type="button" class="btn my-3 btn-c text-g bg-w px-xl-4 px-lg-3 px-2 mx-lg-2">In winkelmandje</button>
+                        </div>
+                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    </div>
+</section>
+ <!-- ===============================
+  ===================================   
+  slider section is end at here 
+  ===================================
+  ==================================== -->
+
+
+
+
+
+<section class="price my-5 py-3">
+  <div class="container">
+    <h2>Recente bestelling</h2>
+    <p>Dit heb je onlangs besteld bij Vlaemynck Natuurlijk</p>
+    <img src="Assets/image/Home/line.png" alt="" class="my-3">
+
+
+    <div class="py-2">
+      <div class="row my-2">
+        <div class="col-lg-5 col-6">
+          <div class="row">
+            <div class="col-lg-4">
+              <p class="text-g">Besteldatum</p>
+            <h4>06/06/2024</h4>
+            </div>
+            <div class="col text-lg-center border-r">
+              <p class="text-g">Leverdatum</p>
+              <h4>06/06/2024</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-6">
+          <div class="row">
+            <div class="col text-lg-center">
+              <p class="text-g">Bestelnummer</p>
+              <h4>3RNSW2BPZ49V</h4> </div>
+
+              <div class="col-lg-4 text-lg-center border-r">
+                <p class="text-g">Bedrag</p>
+                    <h4>€123,45</h4>
+              </div>
+          </div>
+          
+        </div>
+        
+        
+        <div class="col-lg-2 d-flex justify-content-center align-item-center my-3">
+          <button type="button" class="bg-g text-w px-3 py-1 btn-g bekijken">bekijken</button>     
+        </div>
+      </div>
+
+     <img src="Assets/image/Home/line2.png" class="my-3" alt="">
+
+     <div class="row my-2">
+      <div class="col-lg-5 col-6">
+        <div class="row">
+          <div class="col-lg-4">
+            <p class="text-g">Besteldatum</p>
+          <h4>06/06/2024</h4>
+          </div>
+          <div class="col text-lg-center border-r">
+            <p class="text-g">Leverdatum</p>
+            <h4>06/06/2024</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-6">
+        <div class="row">
+          <div class="col text-lg-center">
+            <p class="text-g">Bestelnummer</p>
+            <h4>3RNSW2BPZ49V</h4> </div>
+
+            <div class="col-lg-4 text-lg-center border-r">
+              <p class="text-g">Bedrag</p>
+                  <h4>€123,45</h4>
+            </div>
+        </div>
+        
+      </div>
+      
+      
+      <div class="col-lg-2 d-flex justify-content-center align-item-center my-3">
+        <button type="button" class="bg-g text-w px-3 py-1 btn-g bekijken">bekijken</button>     
+      </div>
+    </div>
+    <img src="Assets/image/Home/line2.png" class="my-3" alt="">
+
+    <div class="row my-2">
+      <div class="col-lg-5 col-6">
+        <div class="row">
+          <div class="col-lg-4">
+            <p class="text-g">Besteldatum</p>
+          <h4>06/06/2024</h4>
+          </div>
+          <div class="col text-lg-center border-r">
+            <p class="text-g">Leverdatum</p>
+            <h4>06/06/2024</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-6">
+        <div class="row">
+          <div class="col text-lg-center">
+            <p class="text-g">Bestelnummer</p>
+            <h4>3RNSW2BPZ49V</h4> </div>
+
+            <div class="col-lg-4 text-lg-center border-r">
+              <p class="text-g">Bedrag</p>
+                  <h4>€123,45</h4>
+            </div>
+        </div>
+        
+      </div>
+      
+      
+      <div class="col-lg-2 d-flex justify-content-center align-item-center my-3">
+        <button type="button" class="bg-g text-w px-3 py-1 btn-g bekijken">bekijken</button>     
+      </div>
+    </div>
+    </div>
+
+   <div class="row my-5">
+    <div class="col-12">
+      <div class="d-flex justify-content-center align-item-center">
+        <button type="button" class="btn-g btn bg-g text-w Bekijk">Bekijk alle bestellingen</button>
+      </div>
+    </div>
+   </div>
+
+  </div>
+
+</section>
+
+
+<section class="news my-5 py-3">
+  <div class="container">
+    <h2>Nieuws en updates</h2>
+    <p class="my-1">Blijf op de hoogte</p>
+    <img src="Assets/image/Home/line.png" alt="">
+
+    <div class="row">
+      <div class="col-lg-6 py-3 d-flex justify-content-center align-item-center">
+        <img src="Assets/image/Home/Rec.png" alt="">
+      </div>
+      <div class="col-lg-6 py-3 d-flex justify-content-center align-item-center flex-column">
+       <h1 class="py-4">Een voorbeeld van een
+        seizoensgebonden titel</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </p>
+       <p id="n-hide">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      </p>
+
+   <p id="n-hide">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </p>
+        <button type="button" class="text-g text-start w-50" id="read"><i>Read More</i></button>
+     
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<section class="cate my-5 py-3">
+  <div class="container">
+    <h2>Categorieën</h2>
+        <p class="my-1">Ons aanbod verdeeld in categorieën</p>
+        <img src="Assets/image/Home/line.png" alt="">
+
+        <div class="tags my-5">
+          <div class="row">
+            <div class="col-lg-4 my-2">
+              <div class="  tgs round py-3 py-lg-2  px-3">
+                <div class="row">
+                  <div class="col-10">
+                    <h5>Aardappelen</h5>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu</p>
+                  </div>
+                  <div class="col-2 d-flex justify-content-center align-items-center">
+                    <i class="fa fa-arrow-right"></i>
+                  </div>
+                </div>  
+              </div>
+            </div>
+            <div class="col-lg-4 my-2">
+              <div class=" tgs round py-3 py-lg-2 px-3 ">
+                <div class="row">
+                  <div class="col-10">
+                    <h5>Groenten</h5>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu</p>
+                  </div>
+                  <div class="col-2 d-flex justify-content-center align-items-center">
+                    <i class="fa fa-arrow-right"></i>
+                  </div>
+                </div>  
+             </div>
+            </div>
+            <div class="col-lg-4 my-2">
+              <div class=" tgs round  py-3 py-lg-2 px-3 ">
+                <div class="row">
+                 <div class="col-10">
+                   <h5>Fruit</h5>
+                   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu</p>
+                 </div>
+                 <div class="col-2 d-flex justify-content-center align-items-center">
+                   <i class="fa fa-arrow-right"></i>
+                 </div>
+                </div>       
+            </div>
+            </div>
+            
+          </div>
+
+
+
+
+
+           <div class="row my-1">
+            <div class="col-lg-4 my-1">
+              <div class=" tgs round py-3 py-lg-2 px-3">
+                <div class="row">
+                  <div class="col-10">
+                    <h5>Groenten</h5>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu</p>
+                  </div>
+                  <div class="col-2 d-flex justify-content-center align-items-center">
+                    <i class="fa fa-arrow-right"></i>
+                  </div>
+                </div>  
+             </div>
+            </div>
+            <div class="col-lg-4">
+              <div class=" tgs round py-3 py-lg-2 px-3">
+                <div class="row">
+                 <div class="col-10">
+                   <h5>Alle producten</h5>
+                   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu</p>
+                 </div>
+                 <div class="col-2 d-flex justify-content-center align-items-center">
+                   <i class="fa fa-arrow-right"></i>
+                 </div>
+                </div>       
+            </div>
+            </div>
+           
+           
+           </div>
+      
+        </div>
+ 
+  </div>
+</section>
+<!-- fotter section is start from here -->
+<footer class="bg-lg py-4 footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+              <div class="l-f my-lg-1 my-4">
+                <img src="Assets/image/Footer/logo.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="row">
+                    <div class="col-lg-4 l-f"><b><p>Duvenkot 6, Veurne</p></b></div>
+                    <div class="col-lg-4 l-f"><b><p>058/31.20.91</p></b></div>
+                    <div class="col-lg-4 l-f"><b><p>email@domeinnaam.be</p></b></div>
+                </div>
+            </div>
+        </div>
+        <div class="logo1">
+            <p class="up">Made by <img src="Assets/image/Footer/logo2.png" alt=""></p>
+        </div>
+    </div>
+   
+</footer>
+
+
+</div>
+
+<!-- bootstrap js file -->
+<script src="Assets/jS/bootstrap.bundle.min.js"></script>
+<!-- Template Main JS File -->
+<script src="Assets/Jquery/jquery-3.7.0.min.js"></script>
+<script src="Assets/jS/index.js"></script>
+
+<!-- swiper js file  -->
+<script src="Assets/js/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+	
+<noscript>Your browser do not support the Javascript</noscript>
+
+</body>
+</html>

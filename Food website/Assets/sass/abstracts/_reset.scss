@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p {
+	padding: 0;
+	margin: 0;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+input,
+button {
+	border: 0px;
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
+}
+
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+button {
+	display: inline-block;
+	background-color: transparent;
+}
+
+body {
+	font-weight: 400;
+	overflow-x: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
